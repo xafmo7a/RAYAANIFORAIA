@@ -63,10 +63,10 @@ export default function App() {
       <header className="sticky top-0 z-50 h-16 border-b border-[#1e1e1e] bg-[#080808]/98 backdrop-blur-sm px-6 md:px-10 flex items-center justify-between">
         <div className="flex items-center gap-3.5">
           <div className="w-9 h-9 rounded-full border border-[#C0141A] bg-[#1e1e1e] overflow-hidden flex items-center justify-center shrink-0">
-            <img src="/images/portrait.png" alt="Raya Ani" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+            <img src="/images/aia/portrait.png" alt="Raya Ani" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </div>
-          <div className="font-['Cormorant_Garamond'] text-lg font-light tracking-[0.2em] uppercase">
-            Raya <span className="text-[#C0141A] font-semibold">Ani</span>
+          <div className="font-narrow text-lg font-bold tracking-[0.1em] uppercase">
+            Raya <span className="text-[#C0141A]">Ani</span>
           </div>
         </div>
 
@@ -108,7 +108,7 @@ export default function App() {
                     setActiveSection(item.id);
                     setIsMenuOpen(false);
                   }}
-                  className={`text-2xl font-['Cormorant_Garamond'] tracking-widest uppercase text-left pb-2 border-b border-[#1e1e1e] ${
+                  className={`text-2xl font-narrow tracking-widest uppercase text-left pb-2 border-b border-[#1e1e1e] font-bold ${
                     activeSection === item.id ? 'text-[#C0141A]' : 'text-[#666]'
                   }`}
                 >
@@ -174,12 +174,12 @@ export default function App() {
                   <span className="w-6 h-px bg-[#C0141A]"></span>
                   American Institute of Architects
                 </div>
-                <h1 className="font-['Cormorant_Garamond'] text-4xl md:text-6xl font-light leading-[1.08] text-[#F5F2ED]">
-                  The Architecture of <br /><span className="italic text-[#C8C2B8]">Empowerment</span>
+                <h1 className="font-narrow text-4xl md:text-6xl font-bold uppercase tracking-tight leading-[1.08] text-[#F5F2ED]">
+                  The Architecture of <br /><span className="text-[#C8C2B8]">Empowerment</span>
                 </h1>
               </div>
               <div className="text-right shrink-0">
-                <div className="font-['Cormorant_Garamond'] text-6xl font-light text-[#1c1c1c] leading-none tracking-tighter">AIA</div>
+                <div className="font-narrow text-6xl font-black text-[#1c1c1c] leading-none tracking-tighter">AIA</div>
                 <div className="text-[9px] tracking-[0.2em] text-[#666] uppercase mt-0.5">Presidential Candidate</div>
               </div>
             </div>
@@ -188,9 +188,9 @@ export default function App() {
             <div className="p-10 md:p-12 border-b border-[#1e1e1e] grid md:grid-cols-[1fr_1px_2fr] gap-0">
               <div className="pr-0 md:pr-10 pb-8 md:pb-0">
                 <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-4">The Why</div>
-                <h2 className="font-['Cormorant_Garamond'] text-3xl font-light leading-tight mb-8">Architects at the Center of <span className="italic">Public Service</span></h2>
+                <h2 className="font-narrow text-3xl font-bold uppercase tracking-tight leading-tight mb-8 text-white">Architects at the Center of Public Service</h2>
                 <div className="w-32 h-32 rounded-full border border-[#C0141A] overflow-hidden">
-                  <img src="/images/portrait.png" alt="Raya Ani" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                  <img src="/images/aia/portrait.png" alt="Raya Ani" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
               <div className="hidden md:block bg-[#1e1e1e]"></div>
@@ -220,7 +220,7 @@ export default function App() {
                     <ShieldCheck className="text-[#C0141A]" size={20} />
                   </div>
                   <div className="text-[10px] font-bold tracking-widest text-[#C0141A] uppercase mb-2">Track 1</div>
-                  <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4">Foundation</h3>
+                  <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4">Foundation</h3>
                   <div className="text-[11px] text-[#666] uppercase tracking-wider mb-4">Pillar: Trust</div>
                   <ul className="text-[14px] text-[#E5E1DA] font-medium leading-relaxed space-y-3">
                     <li>• Ground the profession in clear standards and ethical conduct.</li>
@@ -236,7 +236,7 @@ export default function App() {
                     <Network className="text-[#C0141A]" size={20} />
                   </div>
                   <div className="text-[10px] font-bold tracking-widest text-[#C0141A] uppercase mb-2">Track 2</div>
-                  <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4">Structure</h3>
+                  <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4">Structure</h3>
                   <div className="text-[11px] text-[#666] uppercase tracking-wider mb-4">Pillar: Practice</div>
                   <ul className="text-[14px] text-[#E5E1DA] font-medium leading-relaxed space-y-3">
                     <li>• Connect AIA National, state, and local components.</li>
@@ -252,7 +252,7 @@ export default function App() {
                     <Megaphone className="text-[#C0141A]" size={20} />
                   </div>
                   <div className="text-[10px] font-bold tracking-widest text-[#C0141A] uppercase mb-2">Track 3</div>
-                  <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4">Envelope</h3>
+                  <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4">Envelope</h3>
                   <div className="text-[11px] text-[#666] uppercase tracking-wider mb-4">Pillar: Voice</div>
                   <ul className="text-[14px] text-[#E5E1DA] font-medium leading-relaxed space-y-3">
                     <li>• Lead on public policy and legislative priorities.</li>
@@ -268,7 +268,7 @@ export default function App() {
                     <Cpu className="text-[#C0141A]" size={20} />
                   </div>
                   <div className="text-[10px] font-bold tracking-widest text-[#C0141A] uppercase mb-2">Track 4</div>
-                  <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4">Future Systems</h3>
+                  <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4">Future Systems</h3>
                   <div className="text-[11px] text-[#666] uppercase tracking-wider mb-4">Pillar: Intelligence</div>
                   <ul className="text-[14px] text-[#E5E1DA] font-medium leading-relaxed space-y-3">
                     <li>• Advance digital fluency across the profession.</li>
@@ -285,14 +285,14 @@ export default function App() {
               <div className="grid md:grid-cols-2 gap-12">
                 <div>
                   <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-6">Visionary Leadership</div>
-                  <h4 className="font-['Cormorant_Garamond'] text-2xl font-light mb-4 text-white">Systems of the Future</h4>
+                  <h4 className="font-narrow text-2xl font-bold uppercase tracking-wide mb-4 text-white">Systems of the Future</h4>
                   <p className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     Integrating innovation with regenerative urban models. This includes delivering NYC's first public green school (P.S. 59) and the Liberland master plan, proposing a regenerative urban model for a 7 km² territory.
                   </p>
                 </div>
                 <div>
                   <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-6">Institutional Leadership</div>
-                  <h4 className="font-['Cormorant_Garamond'] text-2xl font-light mb-4 text-white">A Global AIA Member</h4>
+                  <h4 className="font-narrow text-2xl font-bold uppercase tracking-wide mb-4 text-white">A Global AIA Member</h4>
                   <p className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     First woman elected to the AIA Middle East Presidency (2016–2018). Established country representation in Jordan and Iraq. Served as Curator of the AIA International Conference "10,958 Days."
                   </p>
@@ -311,12 +311,12 @@ export default function App() {
                   <span className="w-6 h-px bg-[#C0141A]"></span>
                   A Voice for the Profession
                 </div>
-                <h1 className="font-['Cormorant_Garamond'] text-4xl md:text-6xl font-light leading-[1.08] text-[#F5F2ED]">
-                  Architecture carries<br /><span className="italic text-[#C8C2B8]">responsibilities</span><br />beyond buildings
+                <h1 className="font-narrow text-4xl md:text-6xl font-bold uppercase tracking-tight leading-[1.08] text-[#F5F2ED]">
+                  Architecture carries<br /><span className="text-[#C8C2B8]">responsibilities</span><br />beyond buildings
                 </h1>
               </div>
               <div className="text-right shrink-0">
-                <div className="font-['Cormorant_Garamond'] text-6xl font-light text-[#1c1c1c] leading-none tracking-tighter">PUB</div>
+                <div className="font-narrow text-6xl font-black text-[#1c1c1c] leading-none tracking-tighter">PUB</div>
                 <div className="text-[9px] tracking-[0.2em] text-[#666] uppercase mt-0.5">Public Impact & Recognition</div>
               </div>
             </div>
@@ -330,7 +330,7 @@ export default function App() {
                 { num: '30+', label: 'Global Speaking' },
               ].map((stat, i) => (
                 <div key={i} className="p-6 md:p-8 border-r border-[#1e1e1e] last:border-r-0 text-center">
-                  <div className="font-['Cormorant_Garamond'] text-4xl font-light text-[#C0141A] leading-none">{stat.num}</div>
+                  <div className="font-narrow text-4xl font-bold text-[#C0141A] leading-none">{stat.num}</div>
                   <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#F5F2ED] mt-2">{stat.label}</div>
                 </div>
               ))}
@@ -340,10 +340,10 @@ export default function App() {
             <div className="grid md:grid-cols-[1fr_1px_2fr] p-10 md:p-12 border-b border-[#1e1e1e]">
               <div className="pr-0 md:pr-10 pb-8 md:pb-0">
                 <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-4">Background</div>
-                <h2 className="font-['Cormorant_Garamond'] text-3xl md:text-4xl font-light leading-tight text-white">A Trajectory of<br /><span className="italic text-[#C8C2B8]">Grit and Excellence</span></h2>
+                <h2 className="font-narrow text-3xl md:text-4xl font-bold uppercase tracking-tight leading-tight text-white">A Trajectory of Grit and Excellence</h2>
                 <div className="mt-8 space-y-6">
-                  <ZoomableImage src="/images/portrait.png" alt="Raya Ani Portrait" aspect="aspect-square" className="border border-[#1e1e1e]" />
-                  <ZoomableImage src="/images/image1.png" alt="Credentials Logos" aspect="aspect-[4/1]" className="bg-[#141414] p-4 border border-[#1e1e1e]" />
+                  <ZoomableImage src="/images/aia/portrait.png" alt="Raya Ani Portrait" aspect="aspect-square" className="border border-[#1e1e1e]" />
+                  <ZoomableImage src="/images/public/image1.png" alt="Credentials Logos" aspect="aspect-[4/1]" className="bg-[#141414] p-4 border border-[#1e1e1e]" />
                 </div>
               </div>
               <div className="hidden md:block bg-[#1e1e1e]"></div>
@@ -371,7 +371,7 @@ export default function App() {
                 <div className="space-y-8">
                   <div>
                     <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-4">Recognition</div>
-                    <h3 className="font-['Cormorant_Garamond'] text-3xl font-light text-white mb-6">Recognition that Advances the Profession</h3>
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-6">Recognition that Advances the Profession</h3>
                     <div className="text-[15px] leading-[1.8] text-[#E5E1DA] font-medium space-y-5">
                       <p>
                         Raya Ani’s contributions to architecture and public life have been recognized through <strong className="text-white">national and international honors</strong> reflecting leadership, professional service, and influence on the built environment. In 2016, she was selected by Cadillac and Black Tomato as one of the most influential global figures.
@@ -384,13 +384,13 @@ export default function App() {
                       </p>
                     </div>
                   </div>
-                  <ZoomableImage src="/images/image3.png" alt="Awards Collage 1" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
+                  <ZoomableImage src="/images/public/image3.png" alt="Awards Collage 1" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
                 </div>
 
                 <div className="space-y-8">
                   <div>
                     <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-4">Stewardship</div>
-                    <h3 className="font-['Cormorant_Garamond'] text-3xl font-light text-white mb-6">Professional Stewardship of the Discipline</h3>
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-6">Professional Stewardship of the Discipline</h3>
                     <div className="text-[15px] leading-[1.8] text-[#E5E1DA] font-medium space-y-5">
                       <p>
                         The advancement of architecture also relies on professional stewardship through the evaluation of design excellence and cultural initiatives. Raya Ani has contributed to this role through service on major international juries.
@@ -403,7 +403,7 @@ export default function App() {
                       </p>
                     </div>
                   </div>
-                  <ZoomableImage src="/images/image2.png" alt="Awards Collage 2" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
+                  <ZoomableImage src="/images/public/image2.png" alt="Awards Collage 2" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
                 </div>
               </div>
             </div>
@@ -414,7 +414,7 @@ export default function App() {
                 <div className="space-y-8">
                   <div>
                     <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-4">Dialogue</div>
-                    <h3 className="font-['Cormorant_Garamond'] text-3xl font-light text-white mb-6">Public Dialogue and Global Forums</h3>
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-6">Public Dialogue and Global Forums</h3>
                     <p className="text-[15px] leading-[1.8] text-[#E5E1DA] font-medium mb-5">
                       Architecture evolves through dialogue across disciplines, cultures, and institutions. Raya Ani contributes to international conversations on innovation, sustainability, technology, and the social responsibilities of design through lectures and conferences across the United States, Europe, and the Middle East.
                     </p>
@@ -429,13 +429,13 @@ export default function App() {
                       <div>• Sustainability Innovation Forum</div>
                     </div>
                   </div>
-                  <ZoomableImage src="/images/image5.png" alt="Speaking Engagements" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
+                  <ZoomableImage src="/images/public/image5.png" alt="Speaking Engagements" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
                 </div>
 
                 <div className="space-y-8">
                   <div>
                     <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-4">Education</div>
-                    <h3 className="font-['Cormorant_Garamond'] text-3xl font-light text-white mb-6">Academic Engagement and Mentorship</h3>
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-6">Academic Engagement and Mentorship</h3>
                     <p className="text-[15px] leading-[1.8] text-[#E5E1DA] font-medium mb-5">
                       Education plays an important role in shaping future generations of architects. Raya Ani has contributed to architectural education through teaching, research, and academic critique at world-class institutions.
                     </p>
@@ -445,7 +445,7 @@ export default function App() {
                       <p><strong className="text-white">Research:</strong> Published in <span className="italic">The Papers</span> (MIT), exploring Iraqi domestic architecture.</p>
                     </div>
                   </div>
-                  <ZoomableImage src="/images/image4.png" alt="Academic Experience" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
+                  <ZoomableImage src="/images/public/image4.png" alt="Academic Experience" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
                 </div>
               </div>
             </div>
@@ -454,14 +454,14 @@ export default function App() {
             <div className="p-10 md:p-12 border-b border-[#1e1e1e] bg-[#0c0c0c]">
               <div className="max-w-3xl mb-12">
                 <div className="text-[9px] font-semibold tracking-[0.28em] uppercase text-[#C0141A] mb-4">Media</div>
-                <h3 className="font-['Cormorant_Garamond'] text-3xl md:text-4xl font-light text-white mb-6">Publications and Media Coverage</h3>
+                <h3 className="font-narrow text-2xl md:text-3xl font-bold uppercase tracking-wide text-white mb-6">Publications and Media Coverage</h3>
                 <p className="text-[15px] leading-[1.9] text-[#E5E1DA] font-medium">
                   Raya Ani’s work and ideas have been featured in international architectural, cultural, and mainstream media, contributing to public understanding of architecture’s role in society. Her projects have been covered by <strong className="text-white">Fast Company, Inhabitat, Grist, Green Prophet, designMENA, Middle East Architect, and Construction Week</strong>. Her perspectives have been discussed in broadcast interviews with <strong className="text-white">BLINX, Dubai TV, NBC, Arab TV, Al Sharqiya, Sky News Arabia, and Abu Dhabi TV</strong>.
                 </p>
               </div>
               <div className="grid md:grid-cols-2 gap-8">
-                <ZoomableImage src="/images/image7.png" alt="Publications Archive" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
-                <ZoomableImage src="/images/image6.png" alt="Media Interviews" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
+                <ZoomableImage src="/images/public/image7.png" alt="Publications Archive" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
+                <ZoomableImage src="/images/public/image6.png" alt="Media Interviews" aspect="aspect-[1.6/1]" className="border border-[#1e1e1e]" />
               </div>
             </div>
 
@@ -522,12 +522,12 @@ export default function App() {
                   <span className="w-6 h-px bg-[#C0141A]"></span>
                   Leadership Through Practice
                 </div>
-                <h1 className="font-['Cormorant_Garamond'] text-4xl md:text-6xl font-light leading-[1.08] text-[#F5F2ED]">
-                  Three decades of <span className="italic text-[#C8C2B8]">global</span><br />architectural practice
+                <h1 className="font-narrow text-4xl md:text-6xl font-bold uppercase tracking-tight leading-[1.08] text-[#F5F2ED]">
+                  Three decades of <span className="text-[#C8C2B8]">global</span><br />architectural practice
                 </h1>
               </div>
               <div className="text-right shrink-0">
-                <div className="font-['Cormorant_Garamond'] text-6xl font-light text-[#1c1c1c] leading-none tracking-tighter">SVC</div>
+                <div className="font-narrow text-6xl font-black text-[#1c1c1c] leading-none tracking-tighter">SVC</div>
                 <div className="text-[9px] tracking-[0.2em] text-[#666] uppercase mt-0.5">30 Years of Service</div>
               </div>
             </div>
@@ -538,9 +538,9 @@ export default function App() {
                 <p className="text-[16px] md:text-[18px] leading-[1.8] text-[#E5E1DA] font-medium mb-10">
                   My work operates across regions, shaped through projects, collaborations, and leadership developed over <strong className="text-white">three decades of practice</strong>. With a physical presence and strategic engagement in <strong className="text-white">New York, Dubai, and India</strong>, I work within a global network connecting <strong className="text-white">North America, the Middle East, Europe, and Asia</strong>.
                 </p>
-                <div className="aspect-[16/9] bg-[#1e1e1e] border border-[#1e1e1e] overflow-hidden relative group cursor-zoom-in" onClick={() => setSelectedImage('/images/image1.png')}>
+                <div className="aspect-[16/9] bg-[#1e1e1e] border border-[#1e1e1e] overflow-hidden relative group cursor-zoom-in" onClick={() => setSelectedImage('/images/public/image1.png')}>
                   <img 
-                    src="/images/image1.png" 
+                    src="/images/public/image1.png" 
                     alt="Multiple Spheres of Influence Map" 
                     className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
                     referrerPolicy="no-referrer"
@@ -563,7 +563,7 @@ export default function App() {
                 {/* Design Innovation */}
                 <div className="grid md:grid-cols-[1fr_2fr] gap-12">
                   <div>
-                    <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4 flex items-center gap-3">
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4 flex items-center gap-3">
                       <span className="w-2 h-2 bg-[#C0141A]"></span>
                       Design Innovation
                     </h3>
@@ -574,15 +574,15 @@ export default function App() {
                     </ul>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    <ZoomableImage src="/images/image3.png" alt="PS 59 NYC" aspect="aspect-[4/3]" />
-                    <ZoomableImage src="/images/image2.png" alt="Seton Hall University" aspect="aspect-[4/3]" />
+                    <ZoomableImage src="/images/public/image3.png" alt="PS 59 NYC" aspect="aspect-[4/3]" />
+                    <ZoomableImage src="/images/public/image2.png" alt="Seton Hall University" aspect="aspect-[4/3]" />
                   </div>
                 </div>
 
                 {/* Technology & Emerging Systems */}
                 <div className="grid md:grid-cols-[1fr_2fr] gap-12">
                   <div>
-                    <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4 flex items-center gap-3">
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4 flex items-center gap-3">
                       <span className="w-2 h-2 bg-[#C0141A]"></span>
                       Technology & Systems
                     </h3>
@@ -593,15 +593,15 @@ export default function App() {
                     </ul>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    <ZoomableImage src="/images/image5.png" alt="Creek Mosque" aspect="aspect-[4/3]" />
-                    <ZoomableImage src="/images/image4.png" alt="Aspire Sports Complex" aspect="aspect-[4/3]" />
+                    <ZoomableImage src="/images/public/image5.png" alt="Creek Mosque" aspect="aspect-[4/3]" />
+                    <ZoomableImage src="/images/public/image4.png" alt="Aspire Sports Complex" aspect="aspect-[4/3]" />
                   </div>
                 </div>
 
                 {/* Sustainability & Environmental Thinking */}
                 <div className="grid md:grid-cols-[1fr_2fr] gap-12">
                   <div>
-                    <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4 flex items-center gap-3">
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4 flex items-center gap-3">
                       <span className="w-2 h-2 bg-[#C0141A]"></span>
                       Sustainability
                     </h3>
@@ -612,15 +612,15 @@ export default function App() {
                     </ul>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    <ZoomableImage src="/images/image7.png" alt="Cultural Hub" aspect="aspect-[4/3]" />
-                    <ZoomableImage src="/images/image6.png" alt="Sports Hub" aspect="aspect-[4/3]" />
+                    <ZoomableImage src="/images/public/image7.png" alt="Cultural Hub" aspect="aspect-[4/3]" />
+                    <ZoomableImage src="/images/public/image6.png" alt="Sports Hub" aspect="aspect-[4/3]" />
                   </div>
                 </div>
 
                 {/* Global Practice & Strategic Initiatives */}
                 <div className="grid md:grid-cols-[1fr_2fr] gap-12">
                   <div>
-                    <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4 flex items-center gap-3">
+                    <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4 flex items-center gap-3">
                       <span className="w-2 h-2 bg-[#C0141A]"></span>
                       Global Practice
                     </h3>
@@ -631,10 +631,10 @@ export default function App() {
                     </ul>
                   </div>
                   <div className="grid grid-cols-4 gap-4">
-                    <ZoomableImage src="/images/image10.png" alt="Iraq Pavilion" aspect="aspect-[3/4]" />
-                    <ZoomableImage src="/images/image12.png" alt="Bawadi Park" aspect="aspect-[3/4]" />
-                    <ZoomableImage src="/images/image8.png" alt="Marshes of Iraq" aspect="aspect-[3/4]" />
-                    <ZoomableImage src="/images/image9.png" alt="BF Goodrich" aspect="aspect-[3/4]" />
+                    <ZoomableImage src="/images/service/image10.png" alt="Iraq Pavilion" aspect="aspect-[3/4]" />
+                    <ZoomableImage src="/images/service/image12.png" alt="Bawadi Park" aspect="aspect-[3/4]" />
+                    <ZoomableImage src="/images/service/image8.png" alt="Marshes of Iraq" aspect="aspect-[3/4]" />
+                    <ZoomableImage src="/images/service/image9.png" alt="BF Goodrich" aspect="aspect-[3/4]" />
                   </div>
                 </div>
               </div>
@@ -645,18 +645,18 @@ export default function App() {
               <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-center">
                 <div className="space-y-6">
                   <div className="text-[9px] font-semibold tracking-[0.3em] uppercase text-[#C0141A]">Project Spotlight</div>
-                  <h2 className="font-['Cormorant_Garamond'] text-3xl md:text-5xl font-light text-white leading-tight">
-                    Iraq Pavilion — <span className="italic text-[#C8C2B8]">Expo 2020 Dubai</span>
+                  <h2 className="font-narrow text-3xl md:text-5xl font-bold uppercase tracking-tight text-white leading-tight">
+                    Iraq Pavilion — <span className="text-[#C8C2B8]">Expo 2020 Dubai</span>
                   </h2>
                   <p className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium max-w-xl">
                     A cultural landmark representing the resilience and future of Iraq. The design integrates traditional motifs with modern structural systems, creating a space for global dialogue and cultural exchange.
                   </p>
                   <div className="grid grid-cols-2 gap-4">
-                    <ZoomableImage src="/images/image11.png" alt="Iraq Pavilion Timeline" aspect="aspect-video" />
-                    <ZoomableImage src="/images/image13.png" alt="Iraq Pavilion Details" aspect="aspect-video" />
+                    <ZoomableImage src="/images/service/image11.png" alt="Iraq Pavilion Timeline" aspect="aspect-video" />
+                    <ZoomableImage src="/images/service/image13.png" alt="Iraq Pavilion Details" aspect="aspect-video" />
                   </div>
                 </div>
-                <ZoomableImage src="/images/image10.png" alt="Iraq Pavilion Main" aspect="aspect-[3/4]" className="border border-[#1e1e1e]" />
+                <ZoomableImage src="/images/service/image10.png" alt="Iraq Pavilion Main" aspect="aspect-[3/4]" className="border border-[#1e1e1e]" />
               </div>
             </div>
 
@@ -669,7 +669,7 @@ export default function App() {
 
               <div className="space-y-12 max-w-5xl">
                 <div className="grid md:grid-cols-[140px_1fr] gap-8">
-                  <div className="font-['Cormorant_Garamond'] text-3xl text-[#C0141A]">1994–1998</div>
+                  <div className="font-narrow text-3xl font-bold text-[#C0141A]">1994–1998</div>
                   <div className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     <strong className="text-white block mb-2 uppercase tracking-wider text-[11px]">Civic, Educational, & Urban Architecture — Boston, MA</strong>
                     Professional formation at Elkus Manfredi Architects, Wood & Zapata, and Ellenzweig Associates. Work included schools, universities, and healthcare facilities.
@@ -677,7 +677,7 @@ export default function App() {
                 </div>
 
                 <div className="grid md:grid-cols-[140px_1fr] gap-8">
-                  <div className="font-['Cormorant_Garamond'] text-3xl text-[#C0141A]">1999–2005</div>
+                  <div className="font-narrow text-3xl font-bold text-[#C0141A]">1999–2005</div>
                   <div className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     <strong className="text-white block mb-2 uppercase tracking-wider text-[11px]">Institutional & Cultural Architecture — New York City</strong>
                     Perkins + Will — Associate / Senior Designer. University buildings, cultural institutions, and major cultural facilities in China.
@@ -685,7 +685,7 @@ export default function App() {
                 </div>
 
                 <div className="grid md:grid-cols-[140px_1fr] gap-8">
-                  <div className="font-['Cormorant_Garamond'] text-3xl text-[#C0141A]">2005–2009</div>
+                  <div className="font-narrow text-3xl font-bold text-[#C0141A]">2005–2009</div>
                   <div className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     <strong className="text-white block mb-2 uppercase tracking-wider text-[11px]">Public Realm & Urban Design — New York City</strong>
                     Ehrenkrantz Eckstut & Kuhn Architects — Associate Principal / Design Director. Shaping city infrastructure, waterfronts, and major urban master plans.
@@ -693,7 +693,7 @@ export default function App() {
                 </div>
 
                 <div className="grid md:grid-cols-[140px_1fr] gap-8">
-                  <div className="font-['Cormorant_Garamond'] text-3xl text-[#C0141A]">2010–2012</div>
+                  <div className="font-narrow text-3xl font-bold text-[#C0141A]">2010–2012</div>
                   <div className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     <strong className="text-white block mb-2 uppercase tracking-wider text-[11px]">International Studio Architecture — Dubai</strong>
                     Design Worldwide Partnership — Head of Architecture / Design Director. Leadership of multidisciplinary studio working on regional master plans across the Middle East.
@@ -701,14 +701,14 @@ export default function App() {
                 </div>
 
                 <div className="grid md:grid-cols-[140px_1fr] gap-8 pt-8 border-t border-[#1e1e1e]">
-                  <div className="font-['Cormorant_Garamond'] text-3xl text-[#C0141A]">2012–Present</div>
+                  <div className="font-narrow text-3xl font-bold text-[#C0141A]">2012–Present</div>
                   <div className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     <strong className="text-white block mb-2 uppercase tracking-wider text-[11px]">RAW-NYC Architects — Founding Principal</strong>
                     Founded a woman-led practice with offices in New York, Dubai, and India. Advancing architecture and urbanism through hands-on design and practice leadership.
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-                      <ZoomableImage src="/images/image14.png" alt="RAW WRAP" aspect="aspect-video" />
-                      <ZoomableImage src="/images/image15.png" alt="AIZ Villa" aspect="aspect-video" />
-                      <ZoomableImage src="/images/image16.png" alt="AMH Terraces" aspect="aspect-video" />
+                      <ZoomableImage src="/images/service/image14.png" alt="RAW WRAP" aspect="aspect-video" />
+                      <ZoomableImage src="/images/service/image15.png" alt="AIZ Villa" aspect="aspect-video" />
+                      <ZoomableImage src="/images/service/image16.png" alt="AMH Terraces" aspect="aspect-video" />
                     </div>
                   </div>
                 </div>
@@ -723,13 +723,13 @@ export default function App() {
               </div>
               <div className="grid md:grid-cols-2 gap-12">
                 <div>
-                  <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4">Offices: New York, Dubai, India</h3>
+                  <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4">Offices: New York, Dubai, India</h3>
                   <p className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     Founded in 2012, RAW-NYC Architects is a woman-led practice that operates as a global design studio. We work across scales, from interior architecture to urban master planning, with a focus on innovation and environmental resilience.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-['Cormorant_Garamond'] text-2xl font-light text-white mb-4">Mentorship & Education</h3>
+                  <h3 className="font-narrow text-2xl font-bold uppercase tracking-wide text-white mb-4">Mentorship & Education</h3>
                   <p className="text-[15px] leading-relaxed text-[#E5E1DA] font-medium">
                     Committed to the future of the profession through active mentorship, academic engagement, and leadership development for the next generation of architects.
                   </p>
@@ -742,8 +742,8 @@ export default function App() {
 
       {/* Footer */}
       <footer className="p-12 border-t border-[#1e1e1e] bg-[#080808] text-center">
-        <div className="font-['Cormorant_Garamond'] text-2xl font-light tracking-widest uppercase mb-6">
-          Raya <span className="text-[#C0141A] font-semibold">Ani</span>
+        <div className="font-narrow text-2xl font-bold tracking-[0.15em] uppercase mb-6">
+          Raya <span className="text-[#C0141A]">Ani</span>
         </div>
         <div className="flex justify-center gap-8 mb-8">
           <a href="#" className="text-[#666] hover:text-white transition-colors"><Globe size={20} /></a>

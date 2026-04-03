@@ -4,4 +4,5 @@
 @theme {
   --font-sans: "Raleway", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-narrow: "Arial Narrow", "Arial", sans-serif;
 }
